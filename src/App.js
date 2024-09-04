@@ -1,25 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Form01 from './Form01';
+import TextArea01 from './TextArea01';
+import Select01 from './Select01';
+import Reservation from './Reservation';
+import EventPractice01 from './EventPractice01';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  // return <Form01 />
+  // return <TextArea01 />
+  // return <Select01 />
+  // return <Reservation />
+  return <EventPractice01 />
 
+}
+  
 export default App;
